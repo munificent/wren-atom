@@ -1,0 +1,15 @@
+{
+  "name": "language-wren",
+  "version": "0.0.0",
+  "description": "Atom support for the Wren programming language",
+  "keywords": [
+    "language",
+    "grammar",
+    "wren"
+  ],
+  "repository": "https://github.com/munificent/wren-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

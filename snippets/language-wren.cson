@@ -1,0 +1,48 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+'.source.wren':
+  'Class declaration':
+    'prefix': 'class'
+    'body': '''
+      class $1 {
+        $2
+      }'''
+  'Else clause':
+    'prefix': 'else'
+    'body':
+      '''
+      else {
+        $1
+      }
+      '''
+  'For loop':
+    'prefix': 'for'
+    'body':
+      '''
+      for (${1:i} in $2) {
+        $3
+      }
+      '''
+  'If statement':
+    'prefix': 'if'
+    'body':
+      '''
+      if (${1:true}) {
+        $2
+      }
+      '''
+  'Import statement':
+    'prefix': 'import'
+    'body': 'import "$1" for $2'
+  'While statement':
+    'prefix': 'while'
+    'body':
+      '''
+      while (${1:true}) {
+        $2
+      }
+      '''
+  'Variable declaration':
+    'prefix': 'var'
+    'body': 'var $1 = $2'
