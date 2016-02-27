@@ -9,7 +9,15 @@
   ],
   "repository": "https://github.com/munificent/wren-atom",
   "license": "MIT",
+  "main": "./lib/language-wren.js",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
   }
 }
